@@ -1,0 +1,18 @@
+1. Building the classic snake game
+2. The snake is made up of many segments, where each segment is a turtle in the shape of a square.
+3. OOP
+4.The segments are designed such that the tail of the snake will always follow where the head is going.
+This way, only the direction of head needs to be controlled.
+5.
+
+Concepts of inheritance and OOP are used
+1. Creates a snake class
+2. The snake is made up of many segments, where each segment is a turtle in the shape of a square.
+3. Initially the snake is made of 3 segments and it keeps on increasing as it eats the food.
+4. The snake is moved in such a way that the segment at position i takes the positon of segment
+position i-1. This ensures that the tail of the snake follows it heads.
+5. Event listeners are used to control the snake using arrow keys.
+6. Food class and Scoreboard class inherit the turtle class.
+7. write method of turtle class is used to display the score of the game
+8. If there is a collision with the food, the length of snake increases and the score increases by one.
+9. In case of collision with the wall or with the tail, the game is ended and the game over message is displayed.
